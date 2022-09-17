@@ -1,11 +1,16 @@
 {
-  "name": "hello-node",
+  "name": "toodo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "todo.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "prepare": "husky install"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Mukesh <mukeshudatha7@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "jest": "^29.0.3"
+  }
 }
